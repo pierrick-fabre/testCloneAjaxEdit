@@ -90,7 +90,7 @@
         <h1>Edition des taux de remise (AJAX)</h1>
         <form id="codeForm" onsubmit="event.preventDefault(); addCode();">
             <fieldset><legend>Saisie d'un taux de remise</legend>
-            Code : <input id="code" name="code" size="1" maxlength="1" pattern="[A-Z]{1,1}" title="Une lettre en MAJUSCULES"><br/>
+            Code : <input id="code" name="code" required size="1" maxlength="1" pattern="[A-Z]{1,1}" title="Une lettre en MAJUSCULES"><br/>
             Taux : <input id="taux" name="taux" type="number" step="0.01" min="0.0" max="99.99" size="5"><br/>
             <input type="submit" value="Ajouter">
             </fieldset>

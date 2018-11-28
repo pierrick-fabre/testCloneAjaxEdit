@@ -2,8 +2,6 @@ package servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,10 +17,6 @@ import java.util.Properties;
 import model.DAO;
 import model.DataSourceFactory;
 
-/**
- *
- * @author rbastide
- */
 @WebServlet(name = "codesInJSON", urlPatterns = {"/allCodes"})
 public class ListCodesJsonServlet extends HttpServlet {
 
