@@ -23,7 +23,7 @@ public class AddCodeJsonServlet extends HttpServlet {
 
 	/**
 	 * Processes requests for both HTTP <code>GET</code> and <code>POST</code> methods.
-	 *
+	 * Ajout du push 
 	 * @param request servlet request
 	 * @param response servlet response
 	 * @throws ServletException if a servlet-specific error occurs
